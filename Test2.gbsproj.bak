@@ -1,0 +1,280 @@
+{
+    "settings": {
+        "showCollisions": true,
+        "showConnections": true,
+        "worldScrollX": 1459,
+        "worldScrollY": 844,
+        "zoom": 308.60988642275333,
+        "customColorsWhite": "E8F8E0",
+        "customColorsLight": "B0F088",
+        "customColorsDark": "509878",
+        "customColorsBlack": "202850",
+        "startX": 19,
+        "startY": 21,
+        "startDirection": "up",
+        "startSceneId": "8e5195d0-9a9d-4ba5-a117-ac566f8602d3",
+        "playerSpriteSheetId": "18ac94b6-4937-40dd-b344-68910baf6ead"
+    },
+    "scenes": [
+        {
+            "name": "Scene 1",
+            "backgroundId": "df48763f-9777-4fe8-a988-61c8fea7329c",
+            "width": 25,
+            "height": 23,
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "id": "8e5195d0-9a9d-4ba5-a117-ac566f8602d3",
+            "x": 573.2089032804399,
+            "y": 299.7244696535031,
+            "actors": [],
+            "triggers": []
+        }
+    ],
+    "_version": "1.2.0",
+    "author": "ivan2",
+    "name": "Test2",
+    "variables": [],
+    "backgrounds": [
+        {
+            "id": "43ac4a89-9a44-4f57-9f42-563d55188102",
+            "name": "background1",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "background1.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "dbfc501f-6235-434b-9747-469fcf4205a9",
+            "name": "Bar",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "Bar.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "b4a0aa1a-8718-470d-8781-04170abfe5d1",
+            "name": "internal1",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "internal1.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "69ba7599-a896-483f-a847-e8676a02da69",
+            "name": "Map Test",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "Map Test.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "df48763f-9777-4fe8-a988-61c8fea7329c",
+            "name": "MapGbStudio",
+            "width": 25,
+            "height": 23,
+            "imageWidth": 200,
+            "imageHeight": 184,
+            "filename": "MapGbStudio.png",
+            "_v": 1591686763323
+        },
+        {
+            "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "name": "placeholder",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "placeholder.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "f455952d-66a8-443d-8b96-520a571ed659",
+            "name": "Simple map",
+            "width": 25,
+            "height": 23,
+            "imageWidth": 200,
+            "imageHeight": 184,
+            "filename": "Simple map.png",
+            "_v": 1591686702010
+        }
+    ],
+    "spriteSheets": [
+        {
+            "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+            "name": "actor",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "actor.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+            "name": "actor_animated",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "actor_animated.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "18ac94b6-4937-40dd-b344-68910baf6ead",
+            "name": "alienSprite",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "alienSprite.png",
+            "_v": 1591687281677
+        },
+        {
+            "id": "244ebd26-d949-4611-8f76-161967f75a72",
+            "name": "bunnyStatic",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "bunnyStatic.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "0ae765f4-7d83-48c8-998c-4b86fa4ff252",
+            "name": "cactusActor",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "cactusActor.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "52ed781e-a89e-4507-bf6b-46f3e102085a",
+            "name": "cat2Sprite",
+            "numFrames": 11.9375,
+            "type": "animated",
+            "filename": "cat2Sprite.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "a5ed84e7-107b-4967-8388-879f3ce06a06",
+            "name": "catSprite",
+            "numFrames": 12,
+            "type": "animated",
+            "filename": "catSprite.png",
+            "_v": 1591686702011
+        },
+        {
+            "id": "2d70cd17-1776-4b2c-bf98-9385893e00dc",
+            "name": "dogKKStatic",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "dogKKStatic.png",
+            "_v": 1591686702010
+        },
+        {
+            "id": "ff388cbd-44f7-45e5-881f-adbb02243339",
+            "name": "Fufi",
+            "numFrames": 12,
+            "type": "animated",
+            "filename": "Fufi.png",
+            "_v": 1591686702011
+        },
+        {
+            "id": "dde4f571-aa29-468b-89fb-7d6e462df1e7",
+            "name": "plantActor",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "plantActor.png",
+            "_v": 1591686702011
+        },
+        {
+            "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+            "name": "static",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "static.png",
+            "_v": 1591686702011
+        }
+    ],
+    "music": [
+        {
+            "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+            "name": "template",
+            "filename": "template.mod",
+            "_v": 1591686702007
+        }
+    ],
+    "customEvents": []
+}
