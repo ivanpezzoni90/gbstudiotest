@@ -2,22 +2,22 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1459,
-        "worldScrollY": 844,
-        "zoom": 308.60988642275333,
+        "worldScrollX": 692,
+        "worldScrollY": 402,
+        "zoom": 200,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
         "customColorsBlack": "202850",
-        "startX": 19,
-        "startY": 21,
+        "startX": 12,
+        "startY": 16,
         "startDirection": "up",
         "startSceneId": "8e5195d0-9a9d-4ba5-a117-ac566f8602d3",
         "playerSpriteSheetId": "18ac94b6-4937-40dd-b344-68910baf6ead"
     },
     "scenes": [
         {
-            "name": "Scene 1",
+            "name": "Outside",
             "backgroundId": "df48763f-9777-4fe8-a988-61c8fea7329c",
             "width": 25,
             "height": 23,
@@ -26,6 +26,55 @@
                 0,
                 0,
                 0,
+                24,
+                128,
+                1,
+                48,
+                0,
+                3,
+                0,
+                0,
+                0,
+                63,
+                224,
+                1,
+                194,
+                255,
+                7,
+                132,
+                0,
+                8,
+                8,
+                1,
+                16,
+                16,
+                2,
+                32,
+                32,
+                4,
+                64,
+                192,
+                255,
+                255,
+                7,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                240,
+                240,
+                0,
+                35,
+                33,
+                1,
+                70,
+                66,
+                50,
+                128,
+                135,
+                103,
                 0,
                 0,
                 0,
@@ -35,52 +84,160 @@
                 0,
                 0,
                 0,
+                240,
+                255,
+                255,
+                31,
                 0,
                 0,
                 0,
                 0,
                 0,
+                0
+            ],
+            "id": "8e5195d0-9a9d-4ba5-a117-ac566f8602d3",
+            "x": 455.7089032804399,
+            "y": 311.2244696535031,
+            "actors": [
+                {
+                    "spriteSheetId": "dde4f571-aa29-468b-89fb-7d6e462df1e7",
+                    "movementType": "randomFace",
+                    "direction": "down",
+                    "moveSpeed": "4",
+                    "animSpeed": "3",
+                    "id": "cd7a68ac-b81c-4262-8fec-85fe98d3d8a7",
+                    "x": 19,
+                    "y": 19
+                },
+                {
+                    "spriteSheetId": "ff388cbd-44f7-45e5-881f-adbb02243339",
+                    "movementType": "randomWalk",
+                    "direction": "right",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "1d1b409c-b8d6-461e-bc7b-147e7f23a7bc",
+                    "x": 6,
+                    "y": 19,
+                    "animate": true
+                }
+            ],
+            "triggers": [
+                {
+                    "trigger": "walk",
+                    "id": "d483f3a8-66d5-4816-8bfc-71b4f87cc4c5",
+                    "x": 6,
+                    "y": 10,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "id": "b630cb70-cc78-4316-b505-fc6882fd80b8",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "f0b47b0e-450f-4a96-b3e5-6b7c038737e7",
+                                "x": 12,
+                                "y": 18,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "50d8b1e0-1b7c-4511-aa1d-732f87c02ad6",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "trigger": "walk",
+                    "id": "27f1500b-7ec3-4aef-b687-a9b4d4671acc",
+                    "x": 12,
+                    "y": 10,
+                    "width": 2,
+                    "height": 1
+                },
+                {
+                    "trigger": "walk",
+                    "id": "5eb1a6d1-92f5-434e-b705-64bd850f81e7",
+                    "x": 18,
+                    "y": 10,
+                    "width": 2,
+                    "height": 1
+                },
+                {
+                    "trigger": "walk",
+                    "id": "0eb97593-8e93-4ab4-ac12-5d834677379d",
+                    "x": 1,
+                    "y": 0,
+                    "width": 2,
+                    "height": 1
+                }
+            ]
+        },
+        {
+            "name": "Inside House left",
+            "backgroundId": "f0fe76d9-5ff4-42f3-9d85-705812727802",
+            "width": 25,
+            "height": 23,
+            "collisions": [
                 0,
                 0,
                 0,
+                128,
                 0,
+                16,
                 0,
+                29,
+                46,
                 0,
+                234,
+                87,
                 0,
+                28,
+                224,
                 0,
+                8,
                 0,
+                1,
+                16,
                 0,
+                2,
+                32,
+                60,
+                4,
+                192,
+                204,
+                12,
                 0,
+                9,
+                9,
                 0,
+                50,
+                18,
                 0,
+                100,
+                38,
                 0,
+                200,
+                76,
                 0,
+                156,
+                153,
+                3,
+                8,
                 0,
+                4,
+                16,
                 0,
+                8,
+                32,
                 0,
+                19,
+                192,
                 0,
+                54,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                63,
+                63,
                 0,
                 0,
                 0,
@@ -95,11 +252,48 @@
                 0,
                 0
             ],
-            "id": "8e5195d0-9a9d-4ba5-a117-ac566f8602d3",
-            "x": 573.2089032804399,
-            "y": 299.7244696535031,
-            "actors": [],
-            "triggers": []
+            "id": "f0b47b0e-450f-4a96-b3e5-6b7c038737e7",
+            "x": 717.7043912742616,
+            "y": 282.97525918220606,
+            "actors": [
+                {
+                    "spriteSheetId": "0ae765f4-7d83-48c8-998c-4b86fa4ff252",
+                    "movementType": "randomFace",
+                    "direction": "left",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "30c0fc8a-72a5-4d2c-bb35-6a3edafb4a6e",
+                    "x": 8,
+                    "y": 16
+                }
+            ],
+            "triggers": [
+                {
+                    "trigger": "walk",
+                    "id": "e3e3c0e6-5c76-4844-aa35-f7c0d5f7d867",
+                    "x": 12,
+                    "y": 11,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "id": "9df4e529-43dd-4fc2-912d-cd076068e504",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "8e5195d0-9a9d-4ba5-a117-ac566f8602d3",
+                                "x": 6,
+                                "y": 3,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "5d0292c9-d815-44ba-987f-45caeb85e71e",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "_version": "1.2.0",
@@ -115,7 +309,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "background1.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "dbfc501f-6235-434b-9747-469fcf4205a9",
@@ -125,7 +319,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Bar.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "b4a0aa1a-8718-470d-8781-04170abfe5d1",
@@ -135,7 +329,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "internal1.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "69ba7599-a896-483f-a847-e8676a02da69",
@@ -145,7 +339,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Map Test.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "df48763f-9777-4fe8-a988-61c8fea7329c",
@@ -155,7 +349,17 @@
             "imageWidth": 200,
             "imageHeight": 184,
             "filename": "MapGbStudio.png",
-            "_v": 1591686763323
+            "_v": 1591862236306
+        },
+        {
+            "id": "f0fe76d9-5ff4-42f3-9d85-705812727802",
+            "name": "MapGbStudioInternal",
+            "width": 25,
+            "height": 23,
+            "imageWidth": 200,
+            "imageHeight": 184,
+            "filename": "MapGbStudioInternal.png",
+            "_v": 1591862236306
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -165,7 +369,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "f455952d-66a8-443d-8b96-520a571ed659",
@@ -175,7 +379,7 @@
             "imageWidth": 200,
             "imageHeight": 184,
             "filename": "Simple map.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         }
     ],
     "spriteSheets": [
@@ -185,7 +389,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -193,7 +397,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "18ac94b6-4937-40dd-b344-68910baf6ead",
@@ -201,63 +405,63 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "alienSprite.png",
-            "_v": 1591687281677
+            "_v": 1591862236306
         },
         {
             "id": "244ebd26-d949-4611-8f76-161967f75a72",
             "name": "bunnyStatic",
-            "numFrames": 2,
-            "type": "animated",
+            "numFrames": 1,
+            "type": "static",
             "filename": "bunnyStatic.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "0ae765f4-7d83-48c8-998c-4b86fa4ff252",
             "name": "cactusActor",
-            "numFrames": 6,
-            "type": "actor_animated",
+            "numFrames": 3,
+            "type": "actor",
             "filename": "cactusActor.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "52ed781e-a89e-4507-bf6b-46f3e102085a",
             "name": "cat2Sprite",
-            "numFrames": 11.9375,
-            "type": "animated",
+            "numFrames": 6,
+            "type": "actor_animated",
             "filename": "cat2Sprite.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "a5ed84e7-107b-4967-8388-879f3ce06a06",
             "name": "catSprite",
-            "numFrames": 12,
-            "type": "animated",
+            "numFrames": 6,
+            "type": "actor_animated",
             "filename": "catSprite.png",
-            "_v": 1591686702011
+            "_v": 1591862236306
         },
         {
             "id": "2d70cd17-1776-4b2c-bf98-9385893e00dc",
             "name": "dogKKStatic",
-            "numFrames": 2,
-            "type": "animated",
+            "numFrames": 1,
+            "type": "static",
             "filename": "dogKKStatic.png",
-            "_v": 1591686702010
+            "_v": 1591862236306
         },
         {
             "id": "ff388cbd-44f7-45e5-881f-adbb02243339",
             "name": "Fufi",
-            "numFrames": 12,
-            "type": "animated",
+            "numFrames": 6,
+            "type": "actor_animated",
             "filename": "Fufi.png",
-            "_v": 1591686702011
+            "_v": 1591862236307
         },
         {
             "id": "dde4f571-aa29-468b-89fb-7d6e462df1e7",
             "name": "plantActor",
-            "numFrames": 6,
-            "type": "actor_animated",
+            "numFrames": 3,
+            "type": "actor",
             "filename": "plantActor.png",
-            "_v": 1591686702011
+            "_v": 1591862236307
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -265,7 +469,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "_v": 1591686702011
+            "_v": 1591862236307
         }
     ],
     "music": [
@@ -273,7 +477,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1591686702007
+            "_v": 1591862236304
         }
     ],
     "customEvents": []
